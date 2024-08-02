@@ -30,7 +30,7 @@ const Player = ({ initName, symbol, isActive, onChangeName }) => {
         {playerNameHTML}
         <span className="player-symbol">{symbol}</span>
       </span>
-      <button onClick={handleEditClick}>{isEditing ? "Save" : "Edit"}</button>
+      <button onClick={handleEditClick}>{isEditing ? "حفظ" : "تعديل"}</button>
     </li>
   );
 };

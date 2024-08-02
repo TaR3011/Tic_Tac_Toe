@@ -7,8 +7,8 @@ import GameOver from "./components/GameOver.jsx";
 import { WINNING_COMBINATIONS } from "./winning-cominations.js";
 
 const PLAYERS = {
-  X: " Player 1",
-  O: "player 2",
+  X: "لاعب 1",
+  O: "لاعب 2",
 };
 
 const INITIAL_GAME_BOARD = [
